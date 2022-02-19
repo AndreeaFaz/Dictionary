@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Dictionary</title>
+</head>
+<body>
+	<div class="header">
+		<h1>Dictionary</h1>
+	</div>
+	<div class="input">
+		<label for="inputWord">Type a word by choice</label>
+		<input type="text" id="inputWord" placeholder="Type word...">
+		<input type="submit" value="Add word to list" id="inputWord" onclick="addWordToList()">
+	</div>
+	<div class="listContainer">
+		<ul id="list"></ul>
+	</div>
+	<div class="checkList">
+		<label for="findWord">Type the word you are looking for</label>
+		<input type="text" id="findWord" placeholder="Type a word...">
+		<input type="submit" value="Check" id="findWord" onclick="checkedWord()">
+	</div>
+	<div class="resultContainer">
+		<p id="result"></p>
+	</div>
+</body>
+</html>
